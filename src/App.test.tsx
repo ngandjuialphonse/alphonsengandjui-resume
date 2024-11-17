@@ -1,9 +1,16 @@
-import React from 'react';
+// src/App.test.tsx
 import { render, screen } from '@testing-library/react';
+import { MemoryRouter } from 'react-router-dom';
 import App from './App';
 
-test('renders learn react link', () => {
-  render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+describe('App', () => {
+  test('renders without crashing', () => {
+    render(
+      <MemoryRouter>
+        <App />
+      </MemoryRouter>
+    );
+    // Update assertion to match your app's content
+    expect(screen.getByRole('navigation')).toBeInTheDocument();
+  });
 });

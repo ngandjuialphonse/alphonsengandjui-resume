@@ -1,7 +1,7 @@
 // src/pages/Projects.tsx
 import { motion, AnimatePresence } from 'framer-motion';
 import { FC, useState } from 'react';
-import { FaGithub, FaExternalLinkAlt, FaCode } from 'react-icons/fa';
+import { FaGithub, FaExternalLinkAlt } from 'react-icons/fa';
 
 interface Project {
   title: string;

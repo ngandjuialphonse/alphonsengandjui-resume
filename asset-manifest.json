@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/alphonsengandjui-resume/static/css/main.23190ac2.css",
-    "main.js": "/alphonsengandjui-resume/static/js/main.1e6ec4af.js",
+    "main.css": "/alphonsengandjui-resume/static/css/main.19342ba8.css",
+    "main.js": "/alphonsengandjui-resume/static/js/main.ccbf74af.js",
     "static/media/inter-latin-ext-700-normal.woff": "/alphonsengandjui-resume/static/media/inter-latin-ext-700-normal.149d81a49bd1ff0e6711.woff",
     "static/media/inter-latin-ext-400-normal.woff": "/alphonsengandjui-resume/static/media/inter-latin-ext-400-normal.1c20f7dc20d731a18fcd.woff",
     "static/media/inter-latin-700-normal.woff": "/alphonsengandjui-resume/static/media/inter-latin-700-normal.fc47ca451598e4b97249.woff",
@@ -35,11 +35,11 @@
     "static/media/inter-vietnamese-700-normal.woff2": "/alphonsengandjui-resume/static/media/inter-vietnamese-700-normal.5d9bfcacc44f345662ff.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/alphonsengandjui-resume/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/alphonsengandjui-resume/index.html",
-    "main.23190ac2.css.map": "/alphonsengandjui-resume/static/css/main.23190ac2.css.map",
-    "main.1e6ec4af.js.map": "/alphonsengandjui-resume/static/js/main.1e6ec4af.js.map"
+    "main.19342ba8.css.map": "/alphonsengandjui-resume/static/css/main.19342ba8.css.map",
+    "main.ccbf74af.js.map": "/alphonsengandjui-resume/static/js/main.ccbf74af.js.map"
   },
   "entrypoints": [
-    "static/css/main.23190ac2.css",
-    "static/js/main.1e6ec4af.js"
+    "static/css/main.19342ba8.css",
+    "static/js/main.ccbf74af.js"
   ]
 }

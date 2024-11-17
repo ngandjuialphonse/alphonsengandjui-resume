@@ -1,0 +1,80 @@
+/* src/styles/globals.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Light mode - Softer & Professional */
+    --color-primary: 236 242 248;      /* Softer blue-gray */
+    --color-secondary: 99 179 237;     /* Muted blue */
+    --color-accent: 192 132 252;       /* Soft purple */
+    --color-text-primary: 51 65 85;    /* Darker text */
+    --color-text-secondary: 100 116 139; /* Medium contrast */
+    --color-background: 241 245 249;   /* Softer background */
+    --color-surface: 248 250 252;      /* Slightly tinted white */
+  }
+
+  .dark {
+    /* Dark mode - Deep & Futuristic */
+    --color-primary: 15 23 42;         /* Deep blue-gray */
+    --color-secondary: 56 189 248;     /* Bright cyan */
+    --color-accent: 168 85 247;        /* Vibrant purple */
+    --color-text-primary: 226 232 240; /* Light text */
+    --color-text-secondary: 148 163 184; /* Muted text */
+    --color-background: 17 24 39;      /* Rich dark */
+    --color-surface: 30 41 59;         /* Elevated surface */
+  }
+
+  body {
+    @apply bg-gradient-to-br from-background to-primary/50
+           text-text-primary transition-all duration-300;
+  }
+}
+
+@layer components {
+  .nav-link {
+    @apply px-4 py-2 text-text-secondary 
+           hover:text-secondary/90
+           transition-all duration-300 relative
+           after:absolute after:bottom-0 after:left-0 
+           after:w-0 after:h-0.5 
+           after:bg-gradient-to-r 
+           after:from-secondary/80 after:to-accent/80
+           hover:after:w-full after:transition-all;
+  }
+
+  .glass-effect {
+    @apply bg-surface/60 dark:bg-surface/40
+           backdrop-blur-md
+           border border-surface/10
+           shadow-lg shadow-surface/5
+           dark:shadow-black/20;
+  }
+
+  .card {
+    @apply glass-effect
+           hover:bg-surface/80 dark:hover:bg-surface/50
+           hover:border-secondary/20
+           transition-all duration-300;
+  }
+}
+
+@layer utilities {
+  .animate-fadeIn {
+    animation: fadeIn 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+
+  @keyframes fadeIn {
+    from { 
+      opacity: 0;
+      transform: translateY(20px);
+      backdrop-filter: blur(0);
+    }
+    to { 
+      opacity: 1;
+      transform: translateY(0);
+      backdrop-filter: blur(8px);
+    }
+  }
+}

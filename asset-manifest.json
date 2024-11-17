@@ -1,13 +1,7 @@
 {
   "files": {
-    "main.css": "/resume-portal/static/css/main.7deb44f5.css",
-    "main.js": "/resume-portal/static/js/main.f4ae9cff.js",
-    "static/js/20.a5959b22.chunk.js": "/resume-portal/static/js/20.a5959b22.chunk.js",
-    "static/js/743.49f81224.chunk.js": "/resume-portal/static/js/743.49f81224.chunk.js",
-    "static/js/497.44518248.chunk.js": "/resume-portal/static/js/497.44518248.chunk.js",
-    "static/js/407.a8d503d6.chunk.js": "/resume-portal/static/js/407.a8d503d6.chunk.js",
-    "static/js/941.21fb10fc.chunk.js": "/resume-portal/static/js/941.21fb10fc.chunk.js",
-    "static/js/784.c904ae40.chunk.js": "/resume-portal/static/js/784.c904ae40.chunk.js",
+    "main.css": "/resume-portal/static/css/main.3a1b3c11.css",
+    "main.js": "/resume-portal/static/js/main.051916a1.js",
     "static/media/inter-latin-ext-700-normal.woff": "/resume-portal/static/media/inter-latin-ext-700-normal.149d81a49bd1ff0e6711.woff",
     "static/media/inter-latin-ext-400-normal.woff": "/resume-portal/static/media/inter-latin-ext-400-normal.1c20f7dc20d731a18fcd.woff",
     "static/media/inter-latin-700-normal.woff": "/resume-portal/static/media/inter-latin-700-normal.fc47ca451598e4b97249.woff",
@@ -41,17 +35,11 @@
     "static/media/inter-vietnamese-700-normal.woff2": "/resume-portal/static/media/inter-vietnamese-700-normal.5d9bfcacc44f345662ff.woff2",
     "static/media/inter-vietnamese-400-normal.woff2": "/resume-portal/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/resume-portal/index.html",
-    "main.7deb44f5.css.map": "/resume-portal/static/css/main.7deb44f5.css.map",
-    "main.f4ae9cff.js.map": "/resume-portal/static/js/main.f4ae9cff.js.map",
-    "20.a5959b22.chunk.js.map": "/resume-portal/static/js/20.a5959b22.chunk.js.map",
-    "743.49f81224.chunk.js.map": "/resume-portal/static/js/743.49f81224.chunk.js.map",
-    "497.44518248.chunk.js.map": "/resume-portal/static/js/497.44518248.chunk.js.map",
-    "407.a8d503d6.chunk.js.map": "/resume-portal/static/js/407.a8d503d6.chunk.js.map",
-    "941.21fb10fc.chunk.js.map": "/resume-portal/static/js/941.21fb10fc.chunk.js.map",
-    "784.c904ae40.chunk.js.map": "/resume-portal/static/js/784.c904ae40.chunk.js.map"
+    "main.3a1b3c11.css.map": "/resume-portal/static/css/main.3a1b3c11.css.map",
+    "main.051916a1.js.map": "/resume-portal/static/js/main.051916a1.js.map"
   },
   "entrypoints": [
-    "static/css/main.7deb44f5.css",
-    "static/js/main.f4ae9cff.js"
+    "static/css/main.3a1b3c11.css",
+    "static/js/main.051916a1.js"
   ]
 }

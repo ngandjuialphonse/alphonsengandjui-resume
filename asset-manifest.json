@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/resume-portal/static/css/main.b14eaa9a.css",
-    "main.js": "/resume-portal/static/js/main.8587219d.js",
+    "main.js": "/resume-portal/static/js/main.56bde73b.js",
     "static/js/111.a6272b67.chunk.js": "/resume-portal/static/js/111.a6272b67.chunk.js",
     "static/js/20.a5959b22.chunk.js": "/resume-portal/static/js/20.a5959b22.chunk.js",
     "static/js/743.49f81224.chunk.js": "/resume-portal/static/js/743.49f81224.chunk.js",
@@ -43,7 +43,7 @@
     "static/media/inter-vietnamese-400-normal.woff2": "/resume-portal/static/media/inter-vietnamese-400-normal.44c9df135eec470b0ab6.woff2",
     "index.html": "/resume-portal/index.html",
     "main.b14eaa9a.css.map": "/resume-portal/static/css/main.b14eaa9a.css.map",
-    "main.8587219d.js.map": "/resume-portal/static/js/main.8587219d.js.map",
+    "main.56bde73b.js.map": "/resume-portal/static/js/main.56bde73b.js.map",
     "111.a6272b67.chunk.js.map": "/resume-portal/static/js/111.a6272b67.chunk.js.map",
     "20.a5959b22.chunk.js.map": "/resume-portal/static/js/20.a5959b22.chunk.js.map",
     "743.49f81224.chunk.js.map": "/resume-portal/static/js/743.49f81224.chunk.js.map",
@@ -54,6 +54,6 @@
   },
   "entrypoints": [
     "static/css/main.b14eaa9a.css",
-    "static/js/main.8587219d.js"
+    "static/js/main.56bde73b.js"
   ]
 }
